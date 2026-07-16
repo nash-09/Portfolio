@@ -217,11 +217,30 @@ body::before{
 .project-thumb .browser-dots{position:absolute; top:10px; left:12px; display:flex; gap:5px;}
 .project-thumb .browser-dots span{width:7px;height:7px;border-radius:50%; background:rgba(255,255,255,.55);}
 .project-thumb-label{color:rgba(255,255,255,.92); font-family:'Poppins',sans-serif; font-weight:600; font-size:.95rem; text-align:center; padding:0 10px;}
-.thumb-1{background:linear-gradient(135deg,#1e293b,#3b82f6);}
-.thumb-2{background:linear-gradient(135deg,#7c2d12,#f59e0b);}
-.thumb-3{background:linear-gradient(135deg,#3730a3,#6366f1);}
-.thumb-4{background:linear-gradient(135deg,#7f1d1d,#ef4444);}
-.thumb-5{background:linear-gradient(135deg,#134e4a,#14b8a6);}
+.thumb-1{
+    background: linear-gradient(135deg, #1e293b, #3b82f6);
+}
+.thumb-2{
+    background: linear-gradient(135deg, #312e81, #8b5cf6);
+}
+.thumb-3{
+    background: linear-gradient(135deg, #7c2d12, #f97316);
+}
+.thumb-4{
+    background: linear-gradient(135deg, #831843, #ec4899);
+}
+.thumb-5{
+    background: linear-gradient(135deg, #064e3b, #10b981);
+}
+.thumb-6{
+    background: linear-gradient(135deg, #78350f, #d97706);
+}
+.thumb-7{
+    background: linear-gradient(135deg, #164e63, #06b6d4);
+}
+.thumb-8{
+    background: linear-gradient(135deg, #7f1d1d, #ef4444);
+}
 .project-card .card-body{padding:1.4rem;}
 .project-card h5{font-size:1.05rem; font-weight:700;}
 .project-card p{font-size:.88rem; color:var(--text-dim); min-height:58px;}
